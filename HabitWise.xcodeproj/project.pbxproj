@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E45BC4B28D6232F00A259D8 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45BC4A28D6232F00A259D8 /* Habit.swift */; };
+		8E45BC4D28D6238A00A259D8 /* Habits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45BC4C28D6238A00A259D8 /* Habits.swift */; };
+		8E45BC4F28D6379900A259D8 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45BC4E28D6379800A259D8 /* AddHabit.swift */; };
 		8E84A94428D23D82008B856D /* HabitWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84A94328D23D82008B856D /* HabitWiseApp.swift */; };
 		8E84A94628D23D82008B856D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E84A94528D23D82008B856D /* ContentView.swift */; };
 		8E84A94828D23D86008B856D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E84A94728D23D86008B856D /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E45BC4A28D6232F00A259D8 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		8E45BC4C28D6238A00A259D8 /* Habits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habits.swift; sourceTree = "<group>"; };
+		8E45BC4E28D6379800A259D8 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
 		8E84A94028D23D82008B856D /* HabitWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E84A94328D23D82008B856D /* HabitWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitWiseApp.swift; sourceTree = "<group>"; };
 		8E84A94528D23D82008B856D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 		8E84A93728D23D82008B856D = {
 			isa = PBXGroup;
 			children = (
+				8E45BC4E28D6379800A259D8 /* AddHabit.swift */,
+				8E45BC4A28D6232F00A259D8 /* Habit.swift */,
+				8E45BC4C28D6238A00A259D8 /* Habits.swift */,
 				8E84A94228D23D82008B856D /* HabitWise */,
 				8E84A95328D23D86008B856D /* HabitWiseTests */,
 				8E84A95D28D23D86008B856D /* HabitWiseUITests */,
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E45BC4B28D6232F00A259D8 /* Habit.swift in Sources */,
+				8E45BC4F28D6379900A259D8 /* AddHabit.swift in Sources */,
 				8E84A94628D23D82008B856D /* ContentView.swift in Sources */,
+				8E45BC4D28D6238A00A259D8 /* Habits.swift in Sources */,
 				8E84A94428D23D82008B856D /* HabitWiseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
